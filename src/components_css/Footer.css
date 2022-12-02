@@ -1,0 +1,50 @@
+/* footer */
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  /* border: 2px solid green; */
+  width: 82%;
+  height: 450px;
+  overflow: hidden;
+  z-index: -1000;
+}
+
+.first_circle {
+  background-image: linear-gradient(#1d457b, #1957ac);
+  width: 800px;
+  height: 800px;
+  border-radius: 10000px;
+  position: absolute;
+  bottom: -400px;
+  left: -400px;
+  z-index: -2;
+  transform: rotate(-80deg);
+  box-shadow: 0px -20px 50px #4b7abb4d;
+}
+
+.second_circle {
+  background-image: linear-gradient(#1d457b, #1957ac);
+  width: 1200px;
+  height: 1200px;
+  border-radius: 10000px;
+  position: absolute;
+  bottom: -900px;
+  left: 100px;
+  z-index: -1;
+  transform: rotate(-100deg);
+  box-shadow: 0px -20px 50px #4b7abb4d;
+}
+
+.third_circle {
+  background-image: linear-gradient(#1d457b, #1957ac);
+  width: 800px;
+  height: 800px;
+  border-radius: 10000px;
+  position: absolute;
+  bottom: -550px;
+  left: 1000px;
+  z-index: -2;
+  transform: rotate(40deg);
+  box-shadow: 0px -20px 50px #4b7abb4d;
+}
